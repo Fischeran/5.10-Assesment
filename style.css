@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* styling all center classes to align to center in order to only have to write one line for this */
+
+
+.center {
+  text-align: center;
+}
+
+h1 h2 h3 {
+  font-family: sarif;
+  font-size: 80px
+}
+
+/* although i defined h1 font-size above I know I can resize the h1 element the way I want with some more specificity below */
+
+
+h1 {
+  font-size: 100px
+ 
+}
+
+
+
+header {
+  background-color: beige;
+  height: 300px 
+}
+
+/* gave this div some padding and margin so it does not span whole page */
+
+
+div {
+  padding:75px; 
+  Margin: 75px
+}
+
+p a {
+  font-family:sans-serif;
+}
+
+footer {
+  background-color: beige;
+  height: 100px
+}
+
+
+a:link { color: blue}
+a:visited {color:red }
+a:hover {color: pink}
+a:active {color: green}
